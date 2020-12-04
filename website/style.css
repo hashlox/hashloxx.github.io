@@ -1,0 +1,50 @@
+body { 
+   background-color: #000000;
+   color: #FFFFFF; 
+    font-family: 'Delius', cursive;
+} 
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+#nav-website ul {
+    flex-direction: column;
+}
+header {
+   font-family: 'Syncopate', sans-serif;
+   border-bottom: 0.5vw solid #00FFFF;
+}
+#football { 
+   height: 7.5vh; 
+}
+#nav-website ul {
+   padding: 1vh 1vw;
+   border: 0.5vw solid #00FFFF;
+   border-radius: 0.5vw;
+   list-style-type: none;
+}
+footer {
+   margin-top: 10vh;
+   border-top: 0.5vw solid #00FFFF;
+}
+.panel {
+   border: 0.5vw solid #00FFFF;
+   border-radius: 0.5vw;
+   padding: 1vw;
+   margin: 1vh 0;
+}
+/* Grid layout, header, 2 columns (sidebar nav, content), footer */
+body {
+  display: grid;
+  grid-template-areas: 
+      "header header"
+      "sidebar content"
+      "footer footer";
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 1em;
+}
+header { grid-area: header; }
+section { grid-area: content; }
+nav { grid-area: sidebar; }
+footer { grid-area: footer; }

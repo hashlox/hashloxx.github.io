@@ -1,0 +1,30 @@
+body { 
+   background-color: #000000;
+   color: #FFFFFF; 
+    font-family: 'Delius', cursive;
+} 
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+#nav-website ul {
+    flex-direction: column;
+}
+header {
+   font-family: 'Syncopate', sans-serif;
+   border-bottom: 0.5vw solid #FFFF00;
+}
+#football { 
+   height: 7.5vh; 
+}
+#nav-website ul {
+   padding: 1vh 1vw;
+   border: 0.5vw solid #FFFF00;
+   border-radius: 0.5vw;
+   list-style-type: none;
+}
+footer {
+   margin-top: 10vh;
+   border-top: 0.5vw solid #FFFF00;
+}

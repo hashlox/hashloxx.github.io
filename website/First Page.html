@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Haashim's Website</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Haashim Nadeem" />
+    <meta name="description" content="website" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <p>Haashim's Website</p>
+        <img id="football" src="images/football.jpg" alt="football"/>
+    </header>
+    <nav id="nav-website">
+        <ul>
+            <li><a href="First%20Page.html">Home</a></li>
+            <li><a href="Second%20Page.html">About Me</a></li>
+            <li><a href="Third%20Page.html">Random Stuff</a></li>
+            <li><a href="Fourth%20Page.html">Random Storyteller</a></li>
+            <li><a href="Fifth%20Page.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <section id="cool-calculator">
+        <h2>Coolness Calculator</h2>
+        <form class="panel">
+            <div id="div-coolness">
+                <p>Are you cool?</p>
+                <div>
+                    <input type="radio" id="first-answer" name="first-answer" />
+                    <label for="first-answer">Heck Yeah!</label>
+                </div>
+                <div>
+                    <input type="radio" id="second-answer" name="second-answer" />
+                    <label for="second-answer">No, not really.</label>
+                </div>
+            </div>
+            <div>
+                <p>Do you like sports?</p>
+                <label for="radio-sports-valid-yes">Yes</label>
+                <input type="radio" id="radio-sports-valid-yes" name="sports-valid" value="Yes" />
+                <label for="radio-sports-valid-no">No</label>
+                <input type="radio" id="radio-sports-valid-no" name="sports-valid" value="No" checked="checked" />
+                <p>Do you like my website?</p>
+                <label for="radio-website-valid-yes">Yes</label>
+                <input type="checkbox" id="radio-website-valid-yes" name="website-valid" value="Yes" checked="checked" />
+                <label for="radio-website-valid-no">No</label>
+                <input type="checkbox" id="radio-website-valid-no" name="website-valid" value="No" />
+            </div>
+            <div class="panel">
+                <button id="button-calculate">Calculate</button>
+                <label for="calculated-coolness">Coolness: </label>
+                <input type="text" id="calculated-coolness" name="calculated-coolness" disabled="disabled" />
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>Haashim Nadeem — h.nadeem6496@student.leedsbeckett.ac.uk</p>
+        <a href="javascript:window.print();">Print Page</a>
+    </footer>
+</body>
+
+</html>
